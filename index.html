@@ -11,6 +11,7 @@
 </head>
 <body class="container mt-4">
     <h1 class="text-center text-primary">Spotify Queue</h1>
+    
     <div class="input-group mb-3">
         <input type="text" id="search" class="form-control" placeholder="Buscar canción...">
         <button class="btn btn-primary" onclick="searchTrack()">Buscar <i class="fas fa-search"></i></button>
@@ -19,5 +20,13 @@
     <h2 class="text-center text-secondary mt-4">Cola de Reproducción</h2>
     <button class="btn btn-danger mb-3" onclick="removeFirstFromQueue()">Eliminar primera canción <i class="fas fa-trash-alt"></i></button>
     <div class="row" id="queue"></div>
+
+    <footer class="text-center mt-5">
+        <p>Desarrollado por <strong>Karen Galicia</strong></p>
+        <p>Enlace de github 👇</p>
+        <a href="https://github.com/KarenGalicia/cola-spotify" target="_blank" class="text-dark">
+            <i class="fab fa-github fa-2x"></i>
+        </a>
+    </footer>
 </body>
 </html>
